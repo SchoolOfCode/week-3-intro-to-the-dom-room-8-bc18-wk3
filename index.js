@@ -76,3 +76,29 @@ console.log(unorderedList.childNodes);
 // The console should display a HTMLCollection of five <li> elements.
 
 console.log(unorderedList.children);
+
+
+/* Ticket 2d: First and Last Child
+Instructions:
+Select the <ul> element with the id of "itemList".
+Use the firstChild and lastChild properties to get the first and last child nodes.
+Log both child nodes to the console.
+Expected Outcome:
+The console should display two nodes. Depending on the formatting of your HTML, the first may be a text node (whitespace or line break). The last should be the <li> element with the content "🍈 Fig". */
+
+console.log(unorderedList.firstChild);
+
+console.log(unorderedList.lastChild);
+
+
+/* Ticket 3a: Styling Elements
+Instructions:
+Select the <h1> element with the id of "title".
+Change its text color to "red" and font size to "30px" using JavaScript.
+Expected Outcome:
+The heading "Intro to the DOM" should appear in red and its font size should be 30px. */
+
+const getTitle = document.getElementById("title");
+
+getTitle.style.color = "red";
+getTitle.style.fontSize = "30px";
