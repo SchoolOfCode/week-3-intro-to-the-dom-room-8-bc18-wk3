@@ -102,3 +102,22 @@ const getTitle = document.getElementById("title");
 
 getTitle.style.color = "red";
 getTitle.style.fontSize = "30px";
+
+// - **Instructions**:
+//   - Create a new `<p>` element.
+//   - Set its text content to "This is a dynamically added paragraph.".
+//   - Append it to the end of the body using JavaScript.
+// - **Expected Outcome**:
+//   - A new paragraph with the text "This is a dynamically added paragraph." should appear at the bottom of the page.
+
+const newElement = document.createElement("p");
+newElement.innerText = "This is a dynamically added paragraph.";
+document.body.appendChild(newElement);
+
+// - **Instructions**:
+//   - Select the first `<p>` element with the class "content".
+//   - Change its text content to "This paragraph has been updated." using JavaScript.
+// - **Expected Outcome**:
+//   - The text of the first paragraph with class "content" should now read "This paragraph has been updated."
+
+
